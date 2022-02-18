@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.Searchbar {
+  border-radius: 8px;
+  background: white;
+  padding: 1em;
+  width: 100%;
+  border: 1px solid slategray;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  padding: 30px 20px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgb(239, 181, 73) 36%,
+    rgb(255, 255, 255) 36%
+  );
+}
+
+.card img {
+  display: block;
+  width: 180px;
+  max-height: 200px;
+  position: relative;
+  margin: 20px auto;
+}
+
+.hp {
+  width: 80px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 30px;
+  margin-left: auto;
+  font-weight: 400;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hp span,
+.types span {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.poke-name {
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.stat h3 {
+  display: block;
+  font-weight: bold;
+}
+
+.stat p {
+  color: #404060;
+  text-transform: capitalize;
+}
